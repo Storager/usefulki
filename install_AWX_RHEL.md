@@ -1,6 +1,6 @@
 # AWX
 ## Installation in docker as non-root user
-### Centos/Redhat 7
+### Centos/Redhat (Tested in RHEL 8)
 #### Install docker
 ```shell
 sudo sed -i 's|SELINUX=enforcing|SELINUX=permissive|g' /etc/selinux/config
