@@ -35,7 +35,7 @@ exit
 ````
 
 #### Install AWX
-
+Login as a not-privileged user
 ```shell
 git clone https://github.com/ansible/awx.git -b 15.0.0
 
