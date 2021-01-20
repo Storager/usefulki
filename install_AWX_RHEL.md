@@ -21,7 +21,8 @@ sudo reboot
 ```shell
 
 sudo dnf install -f https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-
+# Or 
+sudo dnf install -f https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sudo dnf install -y ansible git
 
 
